@@ -2,4 +2,5 @@
 
 df = spark.read.format("delta").table("orders_in");
 
+display(df); --- display function helps in displaying the contents read into dataframe varibale 
 

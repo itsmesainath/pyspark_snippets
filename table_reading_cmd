@@ -1,0 +1,5 @@
+---Here is the below core to read data from a table where data is saved as a delta file
+
+df = spark.read.format("delta").table("orders_in");
+
+
